@@ -1,0 +1,10 @@
+doctype html
+html
+	head
+		title Brunei Wiki Sources | header
+		
+	body
+		h1 = Brunei Wiki Sources
+		h2 = header
+		#container
+			== content
