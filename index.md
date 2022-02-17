@@ -1,72 +1,107 @@
 ---
-layout: page
-title: simple site
-tagline: Easy websites with GitHub Pages
-description: Minimal tutorial on making a simple website with GitHub Pages
+title: Brunei Wiki Sources by possiblyzebra
+header: Brunei Wiki Sources
+template: kuih_template
+css:
+- red_sake.css
 ---
 
-[Github Pages](https://pages.github.com) provide a simple way to make a
-website using
-[Markdown](https://daringfireball.net/projects/markdown/) and
-[git](https://git-scm.com).
+Hi! This site serves as an experimental compilation by **@possiblyzebra** ([Website](http://possiblyzebra.net/)/[Twitter](https://twitter.com/possiblyzebra)) of drafts I've collected over the years, that I wanted to put into a Brunei-related wiki.
 
-For me, the painful aspects of making a website are
+([Read more in 'About'](/about))
 
-- Working with html and css
-- Finding a hosting site
-- Transferring stuff to the hosting site
 
-With [GitHub Pages](https://pages.github.com), you just write things in
-[Markdown](https://daringfireball.net/projects/markdown/),
-[GitHub](https://github.com) hosts the site for you, and you just push
-material to your GitHub repository with `git add`, `git commit`, and
-`git push`.
+## Index
 
-If you love [git](https://git-scm.com/) and
-[GitHub](https://github.com), you'll love
-[GitHub Pages](https://pages.github.com), too.
+### Categories
 
-The sites use [Jekyll](https://jekyllrb.com/), a
-[ruby](https://www.ruby-lang.org/en/) [gem](https://rubygems.org/), to
-convert Markdown files to html, and this part is done
-automatically when you push the materials to the `gh-pages` branch
-of a GitHub repository.
+* **Arts & Music**
+	* <em>[Misc](/music_misc)</em>
+* **Clubs, Groups & Associations**
+	* <em>[Misc](/associations_misc)</em>
+* **Education**
+	* [Applications & Registrations](/education_applications) - Education loan, scholarships, exam results
+    * [School Websites](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2015/01/13/school-websites) <em>(Compiled by [Concierge of Brunei](http://safwanah.wixsite.com/conciergeofbrunei/))</em>
+    * [Studying Abroad](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2016/08/05/everything-about-studying-abroad) <em>(Compiled by [Concierge of Brunei](http://safwanah.wixsite.com/conciergeofbrunei/))</em>
+    * [Tuition Centres](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2015/07/22/tuition-centres) <em>(Compiled by [Concierge of Brunei](http://safwanah.wixsite.com/conciergeofbrunei/))</em>
+* **Event Management:**
+	* [Checklist for sharing Brunei Events online](http://possiblyzebra.net/p/2012/02/checklist-brunei-events/) _(Article by @possiblyzebra, Feb 2012)_
+	* [Venue Bookings](/locations_bookings)
+* **Fiction/Books:**
+	* <em>[Misc](/books_misc)</em>
+	* <a href="/fiction_anglophone">Anglophone</a> - List of English-language novels, poetry, plays
+	* [Articles](/books_articles) - Articles about books
+    * [Published](/books_published) - Lists of published books
+* **Fitness**:
+	* [Gyms](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2015/02/06/gyms) <em>(Compiled by [Concierge of Brunei](http://safwanah.wixsite.com/conciergeofbrunei/))</em>
+* **Food**:
+	* <em>There are lot of food/restaurant lists, so I'm only listing some more specific ones here</em>
+	* [Catering Services](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2015/01/06/caterings)  <em>(Compiled by [Concierge of Brunei](http://safwanah.wixsite.com/conciergeofbrunei/))</em>
+	* [Instagram Food Shops/Stalls](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2015/03/25/instagram-food-stalls) <em>(Compiled by [Concierge of Brunei](http://safwanah.wixsite.com/conciergeofbrunei/))</em>
+    * [Brunei Ramadhan Buffets 2016](http://puasa.bruneigeekmeet.com/) <em>(Developed by [TheWheat](http://blog.thewheatfield.org))</em>
+* **Games, Recreation & Entertainment**:
+    * [Movie/Cinema Apps](/apps#movies)
+	* Pokemon Go: [Pokestops & Gyms](https://airtable.com/shrs0aZUHOVFNJRfE) <em>(Online database by @possiblyzebra based on compilations by [Zim4o3](https://www.facebook.com/download/preview/1805267469703242), [Jeslyn Hii, Zephyr Lim, Yazid Yusop](http://goo.gl/icwAtW), [Wanee Faz](https://www.facebook.com/groups/PokemonGOBrunei/permalink/1166030140106873/), [PokemonGoMap.info](http://www.pokemongomap.info/))</em>
+* **Government:**
+	* [Applications & Documents from Government](/applications_govt)
+	* [Cabinet](/govt_cabinet) - Ministers and Permanent Secretaries
+* **Locations:**
+	* [Maps](/locations_maps) - Specific maps, such as the nearest mosque or to find out what mukim you're in!
+	* [Venue Bookings](/locations_bookings)
+* **Shopping:**
+	* [Cube Shops](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2015/08/12/cube-shops) <em>(Compiled by [Concierge of Brunei](http://safwanah.wixsite.com/conciergeofbrunei/))</em>
+	* Instagram Shops: "[For Her](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2015/03/15/instagram-shops-for-her)", "[For Him](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2015/03/15/instagram-shops-for-him-1)", "[For Him/Her](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2015/03/15/instagram-shops-for-him-and-her)" <em>(Compiled by [Concierge of Brunei](http://safwanah.wixsite.com/conciergeofbrunei/))</em>
+* **Websites:**
+	* [Brunei Domains](/websites_domains) - Getting a domain with a <em>.bn</em>, <em>.com.bn</em>, etc for your website
+	* Article advising companies on setting up a website, "[My Message to Businesses in Brunei](https://blog.thewheatfield.org/2011/06/21/my-message-to-businesses-in-brunei/)" _(Article by TheWheat, 21 Jun 2011)_
+* **Women:**
+	* <em>[Misc](/women_misc)</em>
 
-The [GitHub](https://pages.github.com) and
-[Jekyll](https://jekyllrb.com) documentation is great, but I thought it
-would be useful to have a minimal tutorial, for those who just want to
-get going immediately with a simple site. To some readers, what GitHub
-has might be simpler and more direct.  But if you just want to create
-a site like the one you're looking at now, read on.
+### Stand-alone lists
 
-Start by reading the [Overview page](pages/overview.html), which
-explains the basic structure of these sites. Then read
-[how to make an independent website](pages/independent_site.html). Then
-read any of the other things, such as
-[how to test your site locally](pages/local_test.html).
+* [Apps](/apps)
+* [BICTA](/bicta)
+* [Business Resources](/business_resources)
+* [Couchsurfing in Brunei](https://www.reddit.com/r/Brunei/comments/3runpb/couchsurfing_in_brunei/) <em>(Compiled by u/mybruneithrowaway on [The Big Brunei List: How To Keep Yourself Occupied](https://www.reddit.com/r/Brunei/comments/3rkiu0/the_big_brunei_list_how_to_keep_yourself_occupied/), r/Brunei)</em>
+* [Jobs](/jobs)
+* Petrol Stations:
+	* [List of Shell branches & opening hours](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2015/01/20/shell-station-hours) <em>(Compiled by [Concierge of Brunei](http://safwanah.wixsite.com/conciergeofbrunei/))</em>
+    * [Map showing closest petrol station](https://thewheat.github.io/brunei-map-petrol/) <em>(Developed by [TheWheat](http://blog.thewheatfield.org))</em>
+* [Recycling Companies](http://www.env.gov.bn/SitePages/Recycling%20Services.aspx) (<a href="http://www.env.gov.bn/SiteCollectionDocuments/Recycling/List%20of%20Recycling%20Companies%20(ver.%20060615).pdf">PDF download</a>) from [JASTRE](http://www.env.gov.bn/), Ministry of Development
+* Social Media:
+	* [Who to follow](https://www.reddit.com/r/Brunei/comments/3rkiu0/the_big_brunei_list_how_to_keep_yourself_occupied/cwoy76b/)  
+	<em>(Compiled by u/mybruneithrowaway on [The Big Brunei List: How To Keep Yourself Occupied](https://www.reddit.com/r/Brunei/comments/3rkiu0/the_big_brunei_list_how_to_keep_yourself_occupied/), r/Brunei)</em>
+	* Article advising companies on setting up Facebook and Twitter, "[My Message to Businesses in Brunei](https://blog.thewheatfield.org/2011/06/21/my-message-to-businesses-in-brunei/)" _(Article by TheWheat, 21 Jun 2011)_
 
-- [Overview](pages/overview.html)
-- [Making an independent website](pages/independent_site.html)
-- [Making a personal site](pages/user_site.html)
-- [Making a site for a project](pages/project_site.html)
-- [Making a jekyll-free site](pages/nojekyll.html)
-- [Testing your site locally](pages/local_test.html)
-- [Resources](pages/resources.html)
+From [Concierge of Brunei](http://safwanah.wixsite.com/conciergeofbrunei/):
 
-If anything here is confusing (or _wrong_!), or if I've missed
-important details, please
-[submit an issue](https://github.com/kbroman/simple_site/issues), or (even
-better) fork [the GitHub repository for this website](https://github.com/kbroman/simple_site),
-make modifications, and submit a pull request.
+* [Banks](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2015/04/07/bank-locations-and-opening-hours)
+* [Customs Import/Export list](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2015/01/29/import-export-customs)
+* Pets: [Importing domestic pets](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2015/01/10/importing-pets) / [Vets](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2015/01/29/vets)
+* [Lawyers](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2015/01/08/lawyers)
+* [Money Changers](http://safwanah.wixsite.com/conciergeofbrunei/single-post/2015/01/30/money-changers)
+
+ 
 
 ---
 
-The source for this minimal tutorial is [on github](https://github.com/kbroman/simple_site).
+*Last updated: 25 Apr 2017*
 
-Also see my [tutorials](http://kbroman.org/pages/tutorials) on
-[git/github](http://kbroman.org/github_tutorial),
-[GNU make](http://kbroman.org/minimal_make),
-[knitr](http://kbroman.org/knitr_knutshell),
-[R packages](http://kbroman.org/pkg_primer),
-[data organization](http://kbroman.org/dataorg),
-and [reproducible research](http://kbroman.org/steps2rr).
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=625878; 
+var sc_invisible=1; 
+var sc_security="aad5eb7c"; 
+var sc_https=1; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="site stats"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/625878/0/aad5eb7c/1/" alt="site
+stats"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
