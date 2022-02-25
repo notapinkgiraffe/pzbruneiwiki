@@ -46,9 +46,9 @@ Why didn't I just make the wiki? Idk. I overthink it and open dozens of browser 
 
 ### Me
 
-**@possiblyzebra**: [Website](http://possiblyzebra.net/) | [Twitter](https://twitter.com/possiblyzebra)
+**@possiblyzebra**: [Website](http://possiblyzebra.net/) \| [Twitter](https://twitter.com/possiblyzebra)
 
-I'm a co-founder of **Open Brunei**: [Website](http://openbrunei.org/) | [Facebook](https://facebook.com/openbrunei)
+I'm a co-founder of **Open Brunei**: [Website](http://openbrunei.org/) \| [Facebook](https://facebook.com/openbrunei)
 
 
  

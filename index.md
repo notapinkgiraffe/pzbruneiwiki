@@ -6,7 +6,7 @@ header: Brunei Wiki Sources
 layout: page
 ---
 
-Hi! This site serves as an experimental compilation by **@possiblyzebra** ([Website](http://possiblyzebra.net/)/[Twitter](https://twitter.com/possiblyzebra)) of drafts I've collected over the years, that I wanted to put into a Brunei-related wiki.
+Hi! This site serves as an experimental compilation by **@possiblyzebra** ([Website](https://possiblyzebra.net/)/[Twitter](https://twitter.com/possiblyzebra)) of drafts I've collected over the years, that I wanted to put into a Brunei-related wiki.
 
 ([Read more in 'About'](pages/about.html))
 
