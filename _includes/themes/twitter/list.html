@@ -1,0 +1,13 @@
+{% if page.header %}
+<div class="page-header">
+  <h2>{{ page.header }}{% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h2>
+</div>
+{% endif %}
+
+<div class="row-fluid">
+  <div class="span12">
+    {{ content }}
+  </div>
+</div>
+
+{% include pz/navig-bottom-list %}

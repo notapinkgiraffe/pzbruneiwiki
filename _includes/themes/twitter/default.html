@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }}{% if page.header %} | {{ page.header }}{% endif %} | {{ site.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
@@ -31,42 +31,31 @@
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container-narrow">
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <a class="brand" href="{{ HOME_PATH }}" style="float: none">{{ site.title }}</a>
           
-			<!-- ><h2>{{ site.data.navig.docs_list_title }}</h2>
-			<ul>
-			   {% for item in site.data.navig.docs %}
-				  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+<!-- 			<h2>{{ site.data.navig.pz_title }}</h2> -->
+			<ul style="padding-left: 0;margin-top: 0;">
+			   {% for item in site.data.navig.pz_nav %}
+				  <li style="display: inline;"><a href="{{ item.url }}">{{ item.title }}</a> .</li>
 			   {% endfor %}
-			</ul> -->
+			</ul>
         </div>
       </div>
     </div>
 
     <div class="container-narrow">
 
-		<div class="panel panel-default" style="padding: 1em;
-    border: 1px solid grey;
-    background: white;">
-		  <div class="panel-body" style="font-size: smaller;">
-			<em>Hey there!</em> This was a mini-project of mine from 2017. As you may expect, a lot of the info and links here will be outdated. I've kept the site up for archival purposes.
-		  </div>
+		{% include pz/notice-top %}
+		<div class="content">
+			{{ content }}
 		</div>
-      <div class="content">
-        {{ content }}
-      </div>
-      <hr>
-      <div class="nav-bottom">
-      	<a href="{{ HOME_PATH }}">Index</a> |
-      	<a href="{{ BASE_PATH }}/pages/about.html">About</a>
-      </div>
-      <footer>
-        <p><small>
-  <!-- start of Karl's footer; modify this part -->
-          Hey there!
-  <!-- end of Karl's footer; modify this part -->
-        </small></p>
-      </footer>
+<!-- 
+		<footer>
+			<p><small>
+			  Hey there!
+			</small></p>
+		</footer>
+ -->
 
     </div>
 

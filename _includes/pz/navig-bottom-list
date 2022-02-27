@@ -1,0 +1,5 @@
+<hr>
+<div class="nav-bottom">
+<a href="{{ HOME_PATH }}">Index</a> |
+<a href="{{ BASE_PATH }}/about.html">About</a>
+</div>
