@@ -1,6 +1,6 @@
 # Brunei Wiki Sources
 
-[Brunei Wiki Sources](https://notapinkgiraffe.github.io/pzbruneiwiki) - The Site
+[Brunei Wiki Sources](https://projects.possiblyzebra.net/pzbruneiwiki) - The Site
 
 ## About
 
@@ -20,7 +20,7 @@ No one ever sends me questions, but if one of these is in your head...
 * But everything here is mostly just links!
 * What’s the point of gathering this information together?
 
-I answer all of this on the [About](https://notapinkgiraffe.github.io/pzbruneiwiki/pages/about.html) page!
+I answer all of this on the [About](https://projects.possiblyzebra.net/pzbruneiwiki/about.html) page!
 
 ## Credits
 

@@ -1,6 +1,5 @@
 ---
 title: About
-tagline: Not a Wiki
 layout: page
 ---
 

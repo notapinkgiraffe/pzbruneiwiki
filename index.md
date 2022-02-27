@@ -1,9 +1,10 @@
 ---
 title: Brunei Wiki Sources by possiblyzebra
-description: About
 header: Brunei Wiki Sources
+tagline: But Not a Wiki
 <!-- template: kuih_template -->
 layout: page
+is_home: true
 ---
 
 Hi! This site serves as an experimental compilation by **@possiblyzebra** ([Website](https://possiblyzebra.net/)/[Twitter](https://twitter.com/possiblyzebra)) of drafts I've collected over the years, that I wanted to put into a Brunei-related wiki.

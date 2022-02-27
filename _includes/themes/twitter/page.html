@@ -10,4 +10,6 @@
   </div>
 </div>
 
-{% include pz/navig-bottom-page %}
+{% unless page.is_home == true %}
+	{% include pz/navig-bottom-page %}
+{% endunless %}

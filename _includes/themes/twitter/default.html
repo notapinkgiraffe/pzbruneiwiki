@@ -36,7 +36,7 @@
 <!-- 			<h2>{{ site.data.navig.pz_title }}</h2> -->
 			<ul style="padding-left: 0;margin-top: 0;">
 			   {% for item in site.data.navig.pz_nav %}
-				  <li style="display: inline;"><a href="{{ item.url }}">{{ item.title }}</a> .</li>
+				  <li style="display: inline;"><a href="{{ BASE_PATH }}/{{ item.url }}">{{ item.title }}</a> . </li>
 			   {% endfor %}
 			</ul>
         </div>
